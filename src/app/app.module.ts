@@ -12,6 +12,7 @@ import { ProductFilterPipe } from './product/product-filter.pipe';
 import { AlertifyService } from './services/alertify.service';
 import { ProductService } from './services/product.service';
 import { LoginComponent } from './login/login.component';
+import { AccountService } from './services/account.service';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { LoginComponent } from './login/login.component';
       FormsModule,
       HttpClientModule
     ],
-  providers: [AlertifyService, ProductService],
+  providers: [AlertifyService, ProductService, AccountService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
