@@ -11,6 +11,7 @@ import { ProductComponent } from './product/product.component';
 import { ProductFilterPipe } from './product/product-filter.pipe';
 import { AlertifyService } from './services/alertify.service';
 import { ProductService } from './services/product.service';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProductService } from './services/product.service';
     NavComponent,
     CategoryComponent,
     ProductComponent,
-    ProductFilterPipe
+    ProductFilterPipe,
+    LoginComponent
   ],
     imports: [
       BrowserModule,
